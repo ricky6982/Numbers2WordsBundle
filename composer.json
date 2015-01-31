@@ -1,0 +1,17 @@
+{
+    "name": "rck6982/numbers2words-bundle",
+    "description": "Bundle for Symfony2 - Convert numbers to words",
+    "require": {
+        "rck6982/numbers2words": "0.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Sarapura",
+            "email": "ricky6982@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Rck6982\\Numbers2WordsBundle": ""}
+    }
+}
