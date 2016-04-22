@@ -2,7 +2,7 @@
     "name": "rck6982/numbers2words-bundle",
     "description": "Bundle for Symfony2 - Convert numbers to words",
     "require": {
-        "rck6982/numbers2words": "0.1.2"
+        "rck6982/numbers2words": "1.0.0"
     },
     "license": "MIT",
     "authors": [
