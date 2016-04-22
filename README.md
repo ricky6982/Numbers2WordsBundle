@@ -20,7 +20,7 @@ Instalación
 Abra la consola, ingrese al directorio de su proyecto y ejecute el siguiente comando: 
 
 ```sh
-$ composer require Rck6982/Numbers2WordsBundle
+$ composer require rck6982/numbers2words-bundle
 ```
 
 ### Agregando la Extension a Twig
