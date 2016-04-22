@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "keywords": ["numbers", "words", "twig", "extension"],
     "require": {
-        "rck6982/numbers2words": "1.0.*"
+        "rck6982/numbers2words": "1.x-stable"
     },
     "license": "MIT",
     "authors": [
