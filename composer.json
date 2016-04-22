@@ -2,8 +2,9 @@
     "name": "rck6982/numbers2words-bundle",
     "description": "Bundle for Symfony2 - Convert numbers to words",
     "type": "symfony-bundle",
+    "keywords": ["numbers", "words", "twig", "extension"],
     "require": {
-        "rck6982/numbers2words": "1.0.1-stable"
+        "rck6982/numbers2words": "~1.0"
     },
     "license": "MIT",
     "authors": [
