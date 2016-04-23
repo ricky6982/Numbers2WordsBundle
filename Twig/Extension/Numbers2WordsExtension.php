@@ -3,10 +3,6 @@
 namespace Rck6982\Numbers2WordsBundle\Twig\Extension;
 
 use Rck6982\Numbers2Words\Numbers2Words;
-// use Twig_Extension;
-// use Symfony\Component\DependencyInjection\Container;
-// use Symfony\Component\DependencyInjection\ContainerAwareInterface;
-// use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class Numbers2WordsExtension extends \Twig_Extension
 {
@@ -25,7 +21,7 @@ class Numbers2WordsExtension extends \Twig_Extension
         return $obj->toWords($numero);
     }
 
-    public function currencyToWordsFilter($currency)
+    public function currencyToWordsFilter($number)
     {
         $number = number_format((float)$number, 2);
         $pesos = floor($number);
