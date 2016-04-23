@@ -23,11 +23,15 @@ class Numbers2WordsExtension extends \Twig_Extension
 
     public function currencyToWordsFilter($number)
     {
-        $number = number_format((float)$number, 2);
-        $pesos = floor($number);
-        $centavos = ($number - $pesos) * 100;
+        $pesos = intval($number);
+        $centavos = (floor($number*1000) - floor($number)*1000)/10; 
 
-        return $this->numbers2wordsFilter($pesos).' pesos con '.$this->numbers2wordsFilter($centavos). ' centavos';
+        $words =  $this->numbers2wordsFilter($pesos).' pesos';
+        if ($centavos !== 0) {
+            $words = $words.' con '.$this->numbers2wordsFilter($centavos). ' centavos';
+        }
+
+        return $words;
     }
 
     public function getName()
